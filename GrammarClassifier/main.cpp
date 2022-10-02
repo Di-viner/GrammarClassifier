@@ -49,6 +49,7 @@ vector<string> getVNs(string VN)
 	VNs = split(VN, ",");
 	return VNs;
 }
+
 multimap<string, string> getMapP(string P)	//产生式字符串P转换为multimap，key为左部，value为右部
 {
 	multimap<string, string> mapP;
